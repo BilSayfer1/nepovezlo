@@ -1,0 +1,27 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: fit-content;
+    input, select, textarea, button {
+        padding: 10px;
+        border-radius: 12px;
+        outline: none;
+        border: 1px solid #c4c4c4;
+    }
+    button {
+        cursor: pointer;
+    }
+
+    .error {
+        border-color: red;
+    }
+
+}
+
